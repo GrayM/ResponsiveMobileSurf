@@ -1,0 +1,221 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    max-width:350px;
+}
+.layeredImage {
+    display:inline-block;
+    width:100%;
+    height:250px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_mAqfL3XGTQStxFGV_5aHSXZTlHxQO8XuaE6twmI4P2BQkIrw');
+    background-size:cover;
+}
+.wave img {
+    display:block;
+    margin:0 auto;
+    height:30px;
+    width:30px;
+}
+.layeredImage ul {
+    padding-left:25px;
+}
+.layeredImage ul li {
+    /***********ABOUT SEARCH LINKS**********/
+    display:inline-block;
+}
+.layeredImage h1 {
+    color:#FFFFFF;
+    font-weight:200;
+}
+.header a, .header p {
+    border:2px solid blue;
+    color:#073451;
+    font-family:'Roboto Condensed', sans-serif;
+}
+.header h1 {
+    padding-top:5px;
+}
+.header h1, .header p {
+    /***********SURF & PADDLE BOX TEXT*************/
+    /*position:relative;
+	top:0px;*/
+    text-align:center;
+    margin-top:0px;
+    margin-bottom:0px;
+    font-family:'Roboto Condensed', sans-serif;
+}
+ul img {
+    max-width: 20px;
+    max-height: 20px;
+}
+ul {
+    position:relative;
+    top:0px;
+    display:block;
+    text-align:center;
+}
+h2 {
+    color:#073451;
+    font-family:'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    max-width:200px;
+    letter-spacing:-4px;
+    margin-bottom:0px;
+    padding-left:30px;
+}
+.date {
+    color:#777;
+    text-decoration:underline;
+    padding-left:30px;
+    padding-bottom: 45px;
+}
+.firstBox p {
+    text-align:left;
+    padding-left:30px;
+    color: #444;
+}
+h3 {
+    padding-left:65px;
+    font-family:'Roboto Condensed', sans-serif;
+    font-weight: 200;
+    color:#073451;
+    font-size:1.5em;
+}
+.squareLinks ul {
+    position:relative;
+    top:0px;
+    display:block;
+}
+.squareLinks ul li {
+    display:inline-block;
+    float:left;
+    height:40px;
+    width:40px;
+}
+.secondBox ul {
+    display:block;
+    padding-left:0px;
+    margin-top:0px;
+}
+.secondBox ul li {
+    display:inline-block;
+}
+.secondBox img {
+    padding-top:50px;
+    position: relative;
+    right:45px;
+    margin:0 auto;
+}
+.secondBox p, .secondBox a {
+    text-align:center;
+}
+.secondBox a {
+    color:#777;
+}
+.midPic img {
+    display:block;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:80px;
+}
+.midPic a {
+    display:inline-block;
+    float:right;
+    padding-right:40px;
+}
+.posts p {
+    font-family:'Roboto Condensed', sans-serif;
+    font-weight: 200;
+    color:#073451;
+    font-size:2.5em;
+    letter-spacing:-2px;
+}
+.linkPics {
+    font-size:0;
+    background-color:rgba(32, 114, 177, .7);
+}
+.linkPics a {
+    text-decoration:none;
+    display: inlin e-block;
+    font-size: 1.2rem;
+    width:100%;
+    height:200px;
+}
+.linkPics:hover {
+    background-color:transparent;
+}
+.blueOverlay {
+    position:relative;
+}
+.blueOverlay::after {
+    content:'';
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-color:skyblue;
+    top:0;
+    left:0;
+    opacity:.3;
+}
+.linkPic1 {
+    background-image:url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT59_a-WJGkgUKcp5A5h5YsnFVRlk2KcqT10ndbtxvhhn_Suitkrg');
+    background-size:cover;
+}
+.linkPic2 {
+    background-image:url('https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRr3vYMaz1NP0-MCY3hPdZ-nhGtNmZcX5DxwaFjpWJkrWxtNQc8JA');
+    background-size:cover;
+}
+.linkPic3 {
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq8d14Csm6PD8HLoUN2-Rg8WZkXxqqUg-3vz4Tu59ewA3-4DtLtQgpodM');
+    background-size:cover;
+}
+.linkPic4 {
+    background-image:url('https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRYuSVoBqO-o9Sla9C3vsmjKI6v_RGQF2l-vS_I_Q0-jVZwwQbE');
+    background-size:cover;
+}
+.footer {
+    width:100%;
+    height:200px;
+    background-color:#083451;
+}
+.footer ul {
+    padding-top:40px;
+    display:inline-block;
+    width:100%;
+    padding-left:0px;
+}
+.footer ul li {
+    display:inline-block;
+}
+.footer a {
+    color: #777;
+    text-decoration:none;
+}
+.footer img {
+    display:block;
+    margin: 0 auto;
+}
+.footer footer {
+    text-align:center;
+    color:#777;
+    font-family:'Roboto Condensed', sans-serif;
+}
+@media (min-width: 417px) and (max-width: 599px) {
+    .cell {
+        width:50%;
+    }
+}
+/*
+@media (min-width: 417px) and (max-width: 1000px) {
+}
+.layeredImage {
+    height: 400px;
+}
+.wave img {
+	float:left;
+}
+}
